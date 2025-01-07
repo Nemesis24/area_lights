@@ -1,0 +1,36 @@
+{
+  "config": {
+    "flow_title": "Lumières d'Area",
+    "step": {
+      "user": {
+        "title": "Configuration Area Lights",
+        "description": "Sélectionnez les lumières à exclure pour chaque pièce",
+        "data": {
+          "area_*": "Lumières à exclure de {}"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Une seule instance est autorisée."
+    }
+  },
+  "state_attributes": {
+    "count": "Nombre de lumières allumées",
+    "total": "Nombre total de lumières",
+    "count_of": "Nombre de lumières allumées sur le total",
+    "lights_on": "Lumières allumées",
+    "lights_off": "Lumières éteintes",
+    "excluded_lights": "Lumières exclues"
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configuration Area Lights",
+        "description": "Modifiez les lumières à exclure pour chaque pièce",
+        "data": {
+          "area_*": "Lumières à exclure de {}"
+        }
+      }
+    }
+  }
+}

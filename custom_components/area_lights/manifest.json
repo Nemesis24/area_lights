@@ -1,0 +1,13 @@
+{
+  "domain": "area_lights",
+  "name": "Area Lights",
+  "version": "1.0.0",
+  "config_flow": true,
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@Nemesis24"],
+  "iot_class": "local_polling",
+  "documentation": "https://github.com/Nemesis24/area_lights",
+  "quality_scale": "silver",
+  "issue_tracker": "https://github.com/Nemesis24/area_lights/issues"
+}
