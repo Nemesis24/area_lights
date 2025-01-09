@@ -4,7 +4,7 @@
 
 ## Description
 
-L'intégration **Area Lights** permet de gérer les lumières par zone dans Home Assistant. Vous pouvez exclure certaines lumières de chaque zone et surveiller l'état des lumières dans chaque zone.De plus, vous pouvez allumer ou éteindre tous les lumières d'une zone à l'aide d'un switch.
+L'intégration **Area Lights** permet de gérer les lumières par zone dans Home Assistant. Vous pouvez exclure certaines lumières de chaque zone et surveiller l'état des lumières dans chaque zone. De plus, vous pouvez allumer ou éteindre tous les lumières d'une zone à l'aide d'un switch.
 
 ## Installation
 
