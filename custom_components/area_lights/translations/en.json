@@ -1,0 +1,36 @@
+{
+  "config": {
+    "flow_title": "Area Lights",
+    "step": {
+      "user": {
+        "title": "Area Lights Configuration",
+        "description": "You can exclude lights for each room by selecting them.\n\nThe integration only detects lights that are assigned to a room.",
+        "data": {
+          "area_*": "Lights to exclude from {}"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Only a single instance is allowed."
+    }
+  },
+  "state_attributes": {
+    "count": "Number of lights on",
+    "total": "Total number of lights",
+    "count_of": "Number of lights on out of total",
+    "lights_on": "Lights on",
+    "lights_off": "Lights off",
+    "excluded_lights": "Excluded lights"
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Area Lights Configuration",
+        "description": "You can exclude lights for each room by selecting them.\n\nThe integration only detects lights that are assigned to a room.",
+        "data": {
+          "area_*": "Lights to exclude from {}"
+        }
+      }
+    }
+  }
+}
