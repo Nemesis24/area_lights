@@ -133,13 +133,13 @@ class RoomLightsSwitch(SwitchEntity):
         await super().async_added_to_hass()
         
         @callback
-        def async_state_changed(*_):
+        def async_state_changed(event):
             """Handle child updates."""
             self.async_schedule_update_ha_state(True)
 
         for light in self._lights:
             self.async_on_remove(
-                self.hass.helpers.event.async_track_state_change(
+                self.hass.helpers.event.async_track_state_change_event(
                     light, async_state_changed
                 )
             )
